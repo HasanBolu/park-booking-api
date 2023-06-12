@@ -53,7 +53,13 @@ VALUES (standardUserName, standardUserLastName, standardUserEmail, 'admin', stan
 
 **Authentication Method**
 
-API Key Authentication with api-key in the request header, API authenticates the request by checking if api-key value is one of user token in users table in the database 
+API Key Authentication with api-key in the request header, API authenticates the request by checking if api-key value is one of user token in users table in the database.
+
+**Authorization Rules**
+
+- The standard user can create new bookings, and can get/edit/delete only the bookings created by himself.
+- The admin user can create bookings, and also can get/edit/delete every existing booking.
+- Both admin and standard user read parking spot list but only admin users can create/edit/delete the parking spots.
 
 **API Endpoints**
 
