@@ -65,18 +65,18 @@ API Key Authentication with api-key in the request header, API authenticates the
 
 - GET /api/v1/bookings - Get all bookings.
 
-- POST /api/v1//bookings - Create a new booking.
+- POST /api/v1/bookings - Create a new booking.
 
-- GET /api/bookings/:id - Get a specific booking by ID.
+- GET /api/v1/bookings/:id - Get a specific booking by ID.
 
-- PUT /api/bookings/:id - Update a specific booking by ID.
+- PUT /api/v1/bookings/:id - Update a specific booking by ID.
 
-- DELETE /api/bookings/:id - Delete a specific booking by ID.
+- DELETE /api/v1/bookings/:id - Delete a specific booking by ID.
 
-- POST /api/parking-spots - Create a new parking spot.
+- POST /api/v1/parking-spots - Create a new parking spot.
 
-- GET /api/parking-spots - Get all parking spots.
+- GET /api/v1/parking-spots - Get all parking spots.
 
-- PUT /api/parking-spots/:id - Update a specific parking spot by ID.
+- PUT /api/v1/parking-spots/:id - Update a specific parking spot by ID.
 
-- DELETE /api/parking-spots/:id - Delete a specific parking spot by ID.
+- DELETE /api/v1/parking-spots/:id - Delete a specific parking spot by ID.
