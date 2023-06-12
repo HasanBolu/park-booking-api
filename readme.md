@@ -48,7 +48,7 @@ INSERT INTO user (first_name, last_name, email, role, token)
 VALUES (adminUserName, adminLastName, adminEmail, 'admin', adminUserToken);
 
 INSERT INTO user (first_name, last_name, email, role, token)
-VALUES (standardUserName, standardUserLastName, standardUserEmail, 'admin', standardUserToken);
+VALUES (standardUserName, standardUserLastName, standardUserEmail, 'standard', standardUserToken);
 ```
 
 **Authentication Method**
