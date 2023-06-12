@@ -73,8 +73,6 @@ API Key Authentication with api-key in the request header, API authenticates the
 
 - DELETE /api/bookings/:id - Delete a specific booking by ID.
 
-- GET /api/parking-spots - Get all parking spots.
-
 - POST /api/parking-spots - Create a new parking spot.
 
 - GET /api/parking-spots - Get all parking spots.
